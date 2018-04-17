@@ -1,0 +1,11 @@
+<h2>Detale</h2>
+<ul class="heroes">
+  <li>
+    <div>ID: <span>{{myHero.id}}</span></div>
+    <div>Imię: <span>{{myHero.name}}</span></div>
+    <div>Zawód: <span>{{myHero.class}}</span></div>
+    <div><span><img src={{myHero.img}} width="300px" height="400px"></span></div>  
+  </li>
+</ul>
+<button (click)="Back(event)">Wstecz</button>
+<button (click)="Forward(event)">Następny</button>
